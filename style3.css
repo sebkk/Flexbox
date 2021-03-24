@@ -1,0 +1,46 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  width: 100vw;
+  height: 97%;
+  background-color: salmon;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column {
+  width: 40%;
+  height: 97%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bigbox {
+  width: 90%;
+  height: 45%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  width: 80%;
+  height: 17%;
+  background-color: salmon;
+}
+
+.article {
+  width: 80%;
+  height: 70%;
+  background-color: salmon;
+}
